@@ -1,0 +1,24 @@
+.ciudadContainer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 200px;
+
+  }
+  
+   .imgCiudad {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+  }
+
+  
+  .gatoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -70px;
+  }
+  

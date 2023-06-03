@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 0.5rem;
+  color: white;
+  background-color: darkred;
+  text-align: center;
+  font-family: "Lobster", "cursive";
+  font-size: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(69, 130, 209);
+}
+
+main {
+  box-shadow: inset 1px 1px 8px grey;
+  margin: 25px 120px 0 120px;
+  border-radius: 10px;
+  padding: 25px 30px 95px 32px;
+  background-color: rgb(192, 243, 226);
+}
+
+/* Textos */
+h2 {
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  color: darkred;
+  font-family: "Lobster", "cursive";
+}
+
+p {
+  padding: 0.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+p::first-letter {
+  font-family: "Lobster", "cursive";
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-family: "Lobster", "cursive";
+  font-size: 2rem;
+  text-shadow: 1px 1px 50px black;
+}
+
+div .subtitulo {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 1px;
+}
+
+div .subtitulo::first-letter {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 1px;
+}
+
+.ciudadContainer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 200px;
+}
+
+.imgCiudad {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+}
+
+.gatoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -70px;
+}/*# sourceMappingURL=styles.css.map */

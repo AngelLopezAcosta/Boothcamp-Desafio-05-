@@ -1,0 +1,103 @@
+@use "./variables" as f;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+  html {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(69, 130, 209);
+   
+  }
+
+main{
+  box-shadow: inset 1px 1px 8px grey;
+  margin: 25px 120px 0 120px;
+  border-radius: 10px;
+  padding: 25px 30px 95px 32px;
+  background-color: rgb(192, 243, 226);
+}
+  
+  /* Textos */
+ 
+  h2 {
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    color: darkred;
+    font-family: f.$secondaryFont;
+    
+  }
+  
+  p {
+    padding: 0.5rem;
+    font-family: f.$firstFont;
+
+    
+  }
+
+  p::first-letter{
+    font-family: f.$secondaryFont;
+    font-size: 2rem;
+  }
+
+
+  
+  h2 {
+    text-align: center;
+    font: {
+      style: italic;
+      family: f.$secondaryFont;
+      size: 2rem;
+    }
+    text-shadow: 1px 1px 50px black ;
+  }
+
+  div .subtitulo {
+    text-align: center;
+    font: {
+      family : f.$firstFont;
+      size: 1.2rem;
+      weight: 1px;
+    }
+   
+  }
+
+  div .subtitulo::first-letter {
+    font-family: f.$firstFont;
+    font-weight: 1px;
+
+  }
+
+  
+
+
+
+
+  
+
+
+  
+
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
